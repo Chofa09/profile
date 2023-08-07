@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: rgba(120,120,120,0.1);
+  color: #344e41;
+}
+
+div {
+  background-color: rgba(200,200,200,0.1);
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  line-height: 25px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 15px;
+  color: #a3b18a;
+  line-height: 8px;
+}
+
+img {
+  border-radius: 46%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+h2, h3 {
+  font-family: 'Inter', sans-serif;
+}
+
+h3 {
+  margin-bottom: 2px;
+}
+
+#button {
+  background-color: #dad7cd;
+  color: black;
+  border-radius: 7%;
+  padding: 7px;
+  text-decoration: none;
+}
+
+#button:hover {
+  background-color: #a3b18a;
+}
+
+a{
+  color: #1b4332;
+}
+
+a:hover {
+  color: #588157;
+}
+
+
+#div-with-button {
+  padding-bottom: 20px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  font-size: 25px;
+}
+
+.list-inline {
+  padding-left: 0;
+  margin-top: 5px;
+}
+
+.container {
+  width: 600px;
+  margin: 15px auto;
+  text-align: center;
+  padding: 5px;
+  border-radius: 2%;
+  box-shadow: 2px 2px 3px #dad7cd;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+}
